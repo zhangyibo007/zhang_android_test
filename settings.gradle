@@ -1,0 +1,1 @@
+include ':app', ':testscheme', ':test_service', ':test_broadcastreceiver', ':test_http', ':test_popupwindow', ':test_sensors', ':test_addview', ':test_fragment'
