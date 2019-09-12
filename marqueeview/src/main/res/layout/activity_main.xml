@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主要舆情"
+            android:textSize="16sp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/tablayout_border"
+            android:stretchColumns="1,1,1,1">
+
+            <TableRow>
+
+                <TextView
+                    android:height="28dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="序列"
+                    android:textColor="#272727" />
+
+                <TextView
+                    android:layout_marginLeft="-1dp"
+                    android:height="28dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="标题"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginLeft="-1dp"
+                    android:height="28dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="日期来源"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginLeft="-1dp"
+                    android:height="28dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="属性"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                >
+
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1212121212121212121"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="02/08最新网"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="非敏感"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                >
+
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="2"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="全国300名学术"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginLeft="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="02/08最新网"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-1dp"
+                    android:height="50dp"
+                    android:background="@drawable/tablayout_border"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="非敏感"
+                    android:textColor="#272727"
+                    android:textSize="14sp" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <com.phone.marqueeview.SinCurveLine
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
